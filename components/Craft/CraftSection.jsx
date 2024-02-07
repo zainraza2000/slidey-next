@@ -67,7 +67,7 @@ const CraftSection = () => {
           </button>
         </div>
       </section>
-      <ImageModal img={currentImg} />
+      {/* <ImageModal img={currentImg} /> */}
     </>
   );
 };

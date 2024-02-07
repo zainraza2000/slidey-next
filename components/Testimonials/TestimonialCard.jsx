@@ -9,7 +9,7 @@ const TestimonialCard = ({ item, isBlur }) => {
   return (
     <div
       key={item.id}
-      className={`w-[486px] flex flex-col justify-between gap-8 bg-[#fff] testinomial-boxShadow rounded-3xl px-10 pt-12 pb-8 ${
+      className={`w-[486px] h-[550px] flex flex-col justify-between gap-8 bg-[#fff] testinomial-boxShadow rounded-3xl px-10 pt-12 pb-8 ${
         isBlur && "blur-sm"
       }
       transition-all duration-500 ease-in-out
@@ -48,8 +48,6 @@ const TestimonialCard = ({ item, isBlur }) => {
         <Image
           src={item.companyLogo}
           alt="client1Company"
-          width={70}
-          height={60}
           className={`${
             item.id === 2 || item.id === 4 ? " w-[120px]" : " w-[70px]"
           }`}

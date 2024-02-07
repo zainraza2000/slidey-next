@@ -6,6 +6,10 @@ import bdDownImg from "../assets/images/bg-down-4.png";
 import Navbar from "./Navbar";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import heroSectionCardImg1 from "@/assets/images/herosection/herosection-card-1.png";
+import heroSectionCardImg2 from "@/assets/images/herosection/herosection-card-2.png";
+import heroSectionCardImg3 from "@/assets/images/herosection/herosection-card-3.png";
+import ImageSecion from "./ImageHerosection";
 
 const container = {
   hidden: { opacity: 1, scale: 0 },
@@ -47,7 +51,7 @@ const HeroSection = () => {
         {/* <div  > */}
         <Image
           src={exploreImg}
-          className=" spinning-div absolute -bottom-5 z-[2000000]"
+          className=" spinning-div absolute -bottom-12 z-[2000000]"
           alt="explore Img"
           onClick={() => setCurrentCards((prev) => (prev === 1 ? 2 : 1))}
         />
@@ -62,7 +66,7 @@ const HeroSection = () => {
               <p className=" text-xl font-normal text-[#959595] tracking-wider text-justify">
                 Transforming Presentations into Powerful Narratives!
               </p>
-              <button className=" text-[22px] font-normal text-[#090909] bg-[#E1FC71] rounded-[50px] py-4 px-8 tracking-wider">
+              <button className=" text-[22px] font-semibold text-[#090909] bg-[#E1FC71] rounded-[50px] py-3 px-6 tracking-wider">
                 Claim Your Free Slide
               </button>
             </div>
@@ -91,34 +95,40 @@ const HeroSection = () => {
               <>
                 <motion.li
                   variants={cardsVariants}
-                  className="absolute top-12 hover:top-8 left-20 hover:left-16 bg-lime-700 w-[280px] h-[450px] hover:w-[300px] hover:h-[470px] rounded-[30px] -z-10 -rotate-12 transition-all duration-300 ease-in-out transform-gpu hover:scale-110 cursor-pointer"
+                  className="absolute top-[120px] hover:top-[110px] left-20 hover:left-16 bg-lime-700 w-[270px] h-[390px] rounded-[30px] -z-10 -rotate-12 transition-all duration-300 ease-in-out transform-gpu hover:scale-110 cursor-pointer"
                   style={{ rotate: "-12deg" }}
-                ></motion.li>
+                >
+                  <ImageSecion imgSrc={heroSectionCardImg1} />
+                </motion.li>
                 <motion.li
                   variants={cardsVariants}
-                  className="absolute top-9 hover:top-6 bg-orange-400 w-[310px] h-[545px] hover:w-[320px] hover:h-[565px]  -mt-16 rounded-[30px] transition-all duration-300 ease-in-out transform-gpu hover:scale-110 cursor-pointer"
-                ></motion.li>
+                  className="absolute top-12 hover:top-[38px] bg-orange-400 w-[310px] h-[470px] hover:w-[320px] hover:h-[480px] rounded-[30px] transition-all duration-300 ease-in-out transform-gpu hover:scale-110 cursor-pointer"
+                >
+                  <ImageSecion imgSrc={heroSectionCardImg2} />
+                </motion.li>
                 <motion.li
                   variants={cardsVariants}
-                  className="absolute top-9 hover:top-6 right-12 hover:right-10 bg-stone-600 w-[280px] h-[520px]  hover:w-[300px] hover:h-[540px]  rounded-[30px]  transition-all duration-300 ease-in-out transform-gpu hover:scale-110 cursor-pointer"
+                  className="absolute top-[120px] hover:top-[105px] right-12 hover:right-10 bg-stone-600 w-[280px] h-[420px]  hover:h-[435px]  rounded-[30px]  transition-all duration-300 ease-in-out transform-gpu hover:scale-110 cursor-pointer"
                   style={{ rotate: "10deg" }}
-                ></motion.li>
+                >
+                  <ImageSecion imgSrc={heroSectionCardImg3} />
+                </motion.li>
               </>
             )}
             {currentCards === 2 && (
               <>
                 <motion.li
                   variants={cardsVariants}
-                  className="absolute top-12 hover:top-8 left-20 hover:left-16 bg-lime-700 w-[280px] h-[450px] hover:w-[300px] hover:h-[470px] rounded-[30px] -z-10 -rotate-12 transition-all duration-300 ease-in-out transform-gpu hover:scale-110 cursor-pointer"
+                  className="absolute top-[120px] hover:top-[140px] left-20 hover:left-16 bg-lime-700 w-[270px] h-[390px] rounded-[30px] -z-10 -rotate-12 transition-all duration-300 ease-in-out transform-gpu hover:scale-110 cursor-pointer"
                   style={{ rotate: "-12deg" }}
                 ></motion.li>
                 <motion.li
                   variants={cardsVariants}
-                  className="absolute top-9 hover:top-6 bg-orange-400 w-[310px] h-[545px] hover:w-[320px] hover:h-[565px]  -mt-16 rounded-[30px] transition-all duration-300 ease-in-out transform-gpu hover:scale-110 cursor-pointer"
+                  className="absolute top-12 hover:top-6 bg-orange-400 w-[310px] h-[470px] hover:w-[320px] hover:h-[480px] rounded-[30px] transition-all duration-300 ease-in-out transform-gpu hover:scale-110 cursor-pointer"
                 ></motion.li>
                 <motion.li
                   variants={cardsVariants}
-                  className="absolute top-9 hover:top-6 right-12 hover:right-10 bg-stone-600 w-[280px] h-[520px]  hover:w-[300px] hover:h-[540px]  rounded-[30px]  transition-all duration-300 ease-in-out transform-gpu hover:scale-110 cursor-pointer"
+                  className="absolute top-[120px] hover:top-[105px] right-12 hover:right-10 bg-stone-600 w-[280px] h-[420px]  hover:h-[435px]  rounded-[30px]  transition-all duration-300 ease-in-out transform-gpu hover:scale-110 cursor-pointer"
                   style={{ rotate: "10deg" }}
                 ></motion.li>
               </>

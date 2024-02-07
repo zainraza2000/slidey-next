@@ -18,7 +18,7 @@ const StorylineSection = () => {
           </h3>
           <div className="flex xl:gap-6 md:gap-3 bg-white rounded-[30px] 2xl:p-8 md:p-6">
             <div className=" flex flex-col 2xl:gap-6 xl:gap-4 md:gap-2">
-              <h3 className="fontGivonic xl:text-[28px] md:text-[20px]  font-semibold">
+              <h3 className="fontGivonic xl:text-[28px] md:text-[20px] text-[#B1DC00]  font-semibold">
                 Presentation Design
               </h3>
               <p className="fontGivonic 2xl:text-base xl:text-[15px] md:text-[12px] text-[#4D4D4D]">
@@ -41,7 +41,7 @@ const StorylineSection = () => {
             alt=""
             className=" rounded-[20px] w-full xl:h-[243px] md:h-[220px]"
           />
-          <h3 className="fontGivonic xl:text-[28px] md:text-[20px]  font-semibold">
+          <h3 className="fontGivonic xl:text-[28px] md:text-[20px] text-[#B25DFF] font-semibold">
             Pitch Deck Design
           </h3>
           <p className="fontGivonic 2xl:text-base xl:text-[15px] md:text-[12px] text-[#4D4D4D]">
@@ -54,7 +54,7 @@ const StorylineSection = () => {
       {/* BOTTOM */}
       <div class="grid 2xl:grid-cols-6 md:grid-cols-4 gap-4 w-full h-[310px]">
         <div className="2xl:col-span-2 flex flex-col 2xl:gap-6 xl:gap-4 md:gap-2 bg-white rounded-[30px] 2xl:p-8 md:p-6">
-          <h3 className="fontGivonic xl:text-[28px] md:text-[20px]  font-semibold">
+          <h3 className="fontGivonic xl:text-[28px] md:text-[20px] text-[#F659DF] font-semibold">
             Branding Design
           </h3>
           <p className="fontGivonic 2xl:text-base xl:text-[15px] md:text-[12px] text-[#4D4D4D]">
@@ -71,7 +71,7 @@ const StorylineSection = () => {
         />
         <div className="2xl:col-span-3 md:col-span-2 flex xl:gap-6 md:gap-3 bg-white rounded-[30px] 2xl:p-8 md:p-6">
           <div className=" flex flex-col 2xl:gap-6 xl:gap-4 md:gap-2">
-            <h3 className="fontGivonic xl:text-[28px] md:text-[20px]  font-semibold">
+            <h3 className="fontGivonic xl:text-[28px] md:text-[20px] text-[#5D3FFF] font-semibold">
               Website Design
             </h3>
             <p className="fontGivonic 2xl:text-base xl:text-[15px] md:text-[12px] text-[#4D4D4D]">

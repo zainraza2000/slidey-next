@@ -34,7 +34,7 @@ const clientData = [
   },
   {
     id: 3,
-    firstname: "Hamid",
+    firstname: "daniyal",
     lastname: "Kabdovand",
     designation: "CEO, BallersApp",
     profileImg: clientProfile1,
@@ -44,7 +44,7 @@ const clientData = [
   },
   {
     id: 4,
-    firstname: "Ilan ",
+    firstname: "zain ",
     lastname: "Danielli",
     designation: "CEO, BallersApp",
     profileImg: clientProfile2,
@@ -72,7 +72,7 @@ const TestimonialSection = () => {
         </span>
       </h3>
       {/* Cards */}
-      <div className=" flex gap-6">
+      <div className=" flex gap-6 overflow-x-auto whitespace-no-wrap">
         {/* Card */}
         {substate.map((sub, i) =>
           i === 2 ? (

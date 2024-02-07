@@ -114,7 +114,7 @@ const OurWorkSection = () => {
           </button>
         </div>
       </section>
-      <ImageModal img={currentImg} />
+      {/* <ImageModal img={currentImg} /> */}
     </>
   );
 };

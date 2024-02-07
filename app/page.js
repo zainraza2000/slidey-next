@@ -7,6 +7,7 @@ import OurWorkSection from "@/components/OurWork/OurWorkSection";
 import ProvenSection from "@/components/Proven/ProvenSection";
 import RankingSection from "@/components/RankingSection";
 import StorylineSection from "@/components/StorylineSection";
+import Template from "@/components/Template";
 import TestimonialSection from "@/components/Testimonials/TestimonialSection";
 import ClientSection from "@/components/client/ClientSection";
 import PricingSection from "@/components/pricing/PricingSection";
@@ -26,6 +27,7 @@ export default function Home() {
       <PricingSection />
       <OurWorkSection />
       <Footer />
+      <Template />
     </>
   );
 }
