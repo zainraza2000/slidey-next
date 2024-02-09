@@ -65,7 +65,7 @@ const IdeaSection = () => {
   const dragX3 = useMotionValue(0);
 
   return (
-    <section className=" w-4/5 flex justify-between items-center mx-auto ">
+    <section className=" w-4/5 flex justify-between items-center mx-auto mb-20">
       <div className=" w-[32%] flex flex-col border-b border-black gap-10 h-80">
         <h3 className="fontGivonic text-[52px] font-semibold leading-[60px]">
           Awake{" "}
@@ -95,7 +95,7 @@ const IdeaSection = () => {
         >
           <Image src={idea1} alt="idea1" />
         </motion.div>
-        
+
         <motion.div
           className="fontGivonic ml-[50px] bg-white w-44 h-[60px] rounded-xl flex justify-center items-center text-[#EF423A] text-4xl font-semibold capitalize"
           drag

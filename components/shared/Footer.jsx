@@ -13,37 +13,38 @@ const Footer = () => {
   return (
     <section className=" bg-[#0F0F16] mt-20">
       <div className="w-4/5 flex flex-col justify-center items-center gap-16 mx-auto py-24">
-        <div className=" grid grid-cols-3 gap-4">
-          <div className="flex flex-col gap-8">
+        <div className=" grid grid-cols-3 gap-8">
+          <div className="w-4/5 flex flex-col gap-8">
             <p className=" text-[40px] font-semibold text-[#fff] tracking-wider mb-0">
               Create Your Story With Us!
             </p>
-            <button className=" text-[22px] font-semibold text-[#090909] bg-[#86E2FF] rounded-[15px] py-3 px-6 tracking-wider">
+            <button className=" text-[22px] font-semibold text-[#090909] bg-[#86E2FF] rounded-[15px] py-3 px-6 tracking-wider
+            transition-all duration-300 ease-in-out transform-gpu hover:scale-105">
               Claim Your Free Slide
             </button>
             <h3 className=" text-lg text-[#fff] mb-0">Find Us On</h3>
             <div className=" flex items-center gap-5">
               <Link
                 href={"#"}
-                className=" bg-[#86E2FF] rounded-[50%] py-[10px] px-3"
+                className=" bg-[#86E2FF] rounded-[50%] py-[10px] px-3 transition-all duration-300 ease-in-out transform-gpu hover:scale-110"
               >
                 <RiInstagramLine className=" text-[26px]" />
               </Link>
               <Link
                 href={"#"}
-                className=" bg-[#86E2FF] rounded-[50%] py-[10px] px-3"
+                className=" bg-[#86E2FF] rounded-[50%] py-[10px] px-3 transition-all duration-300 ease-in-out transform-gpu hover:scale-110"
               >
                 <FaPinterestP className=" text-[26px]" />
               </Link>
               <Link
                 href={"#"}
-                className=" bg-[#86E2FF] rounded-[50%] py-[10px] px-3"
+                className=" bg-[#86E2FF] rounded-[50%] py-[10px] px-3 transition-all duration-300 ease-in-out transform-gpu hover:scale-110"
               >
                 <RiLinkedinFill className=" text-[26px]" />
               </Link>
               <Link
                 href={"#"}
-                className=" bg-[#86E2FF] rounded-[50%] py-[10px] px-3"
+                className=" bg-[#86E2FF] rounded-[50%] py-[10px] px-3 transition-all duration-300 ease-in-out transform-gpu hover:scale-110"
               >
                 <BiBasketball className=" text-[26px]" />
               </Link>

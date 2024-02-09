@@ -5,7 +5,7 @@ import arrow from "@/assets/images/testinomials/testinomial-arrow.svg";
 import lineUp from "@/assets/images/testinomials/line-up.png";
 import lineDown from "@/assets/images/testinomials/line-down.png";
 
-const TestimonialCard = ({ item, isBlur }) => {
+const TestimonialCard = ({ item, isBlur,style }) => {
   return (
     <div
       key={item.id}
@@ -14,6 +14,7 @@ const TestimonialCard = ({ item, isBlur }) => {
       }
       transition-all duration-500 ease-in-out
       `}
+      style={style}
     >
       <Image
         src={lineUp}

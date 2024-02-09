@@ -1,8 +1,9 @@
 import Image from "next/image";
 import React from "react";
-import storyline1 from "@/assets/images/storyline-1.png";
-import storyline2 from "@/assets/images/storyline-2.png";
-import storyline3 from "@/assets/images/storyline-3.png";
+import presentationImg from "@/assets/images/storyline/presentation.png";
+import pitchdeckImg from "@/assets/images/storyline/pitchdeck.png";
+import brandingImg from "@/assets/images/storyline/branding.png";
+import websitedesignImg from "@/assets/images/storyline/websitedesign.png";
 
 const StorylineSection = () => {
   return (
@@ -29,16 +30,16 @@ const StorylineSection = () => {
               </p>
             </div>
             <Image
-              src={storyline1}
-              alt=""
+              src={presentationImg}
+              alt="presentationImg"
               className=" rounded-[20px] xl:w-full md:w-[160px] xl:h-full md:h-[170px]"
             />
           </div>
         </div>
         <div className="  flex flex-col 2xl:gap-6 md:gap-4 bg-white rounded-[30px] p-8">
           <Image
-            src={storyline2}
-            alt=""
+            src={pitchdeckImg}
+            alt="pitchdeckImg"
             className=" rounded-[20px] w-full xl:h-[243px] md:h-[220px]"
           />
           <h3 className="fontGivonic xl:text-[28px] md:text-[20px] text-[#B25DFF] font-semibold">
@@ -65,8 +66,8 @@ const StorylineSection = () => {
           </p>
         </div>
         <Image
-          src={storyline3}
-          alt=""
+          src={brandingImg}
+          alt="brandingImg"
           className=" rounded-[20px] h-[310px] w-full"
         />
         <div className="2xl:col-span-3 md:col-span-2 flex xl:gap-6 md:gap-3 bg-white rounded-[30px] 2xl:p-8 md:p-6">
@@ -82,8 +83,8 @@ const StorylineSection = () => {
             </p>
           </div>
           <Image
-            src={storyline1}
-            alt=""
+            src={websitedesignImg}
+            alt="websitedesignImg"
             className=" rounded-[20px]  xl:w-full md:w-[160px] xl:h-full md:h-[170px]"
           />
         </div>

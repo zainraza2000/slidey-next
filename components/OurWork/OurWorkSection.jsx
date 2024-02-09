@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import icon1 from "@/assets/svgs/craft-icon-1.svg";
 import icon2 from "@/assets/svgs/craft-icon-2.svg";
 import downIcon from "@/assets/svgs/recent-down.svg";
@@ -10,7 +10,7 @@ import workCardIcon1 from "@/assets/svgs/workCard-icon-1.svg";
 import workCardIcon2 from "@/assets/svgs/workCard-icon-2.svg";
 import AllWorksType from "./AllWorksType";
 import { ourWorksData } from "@/data";
-import ImageModal from "../ImageModal";
+import ImageModal from "../shared/ImageModal";
 
 const workTypes = [
   "all",
@@ -32,6 +32,9 @@ const OurWorkSection = () => {
     console.log(filterWorkType);
     setCurrentWorkType(filterWorkType);
   };
+
+  const [open, setOpen] = useState(false);
+  const cancelButtonRef = useRef(null);
 
   return (
     <>
@@ -82,10 +85,10 @@ const OurWorkSection = () => {
                 {currentWorkType.map((item, i) => (
                   <div
                     key={i}
-                    data-bs-toggle="modal"
-                    data-bs-target="#imageModal"
                     className="ourWorkTypeCard relative mx-auto cursor-pointer"
-                    onClick={() => setCurrentImg(item?.modalSrc)}
+                    onClick={() => {
+                      setCurrentImg(item?.modalSrc), setOpen(true);
+                    }}
                   >
                     <Image
                       src={item?.thumbnailSrc}
@@ -114,7 +117,12 @@ const OurWorkSection = () => {
           </button>
         </div>
       </section>
-      {/* <ImageModal img={currentImg} /> */}
+      <ImageModal
+        img={currentImg}
+        setOpen={setOpen}
+        open={open}
+        cancelButtonRef={cancelButtonRef}
+      />
     </>
   );
 };

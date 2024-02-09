@@ -3,12 +3,13 @@ import React, { useState } from "react";
 import mainBg from "../assets/images/Vector.png";
 import exploreImg from "../assets/images/explore-img.png";
 import bdDownImg from "../assets/images/bg-down-4.png";
-import Navbar from "./Navbar";
+import Navbar from "./shared/Navbar";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import heroSectionCardImg1 from "@/assets/images/herosection/herosection-card-1.png";
 import heroSectionCardImg2 from "@/assets/images/herosection/herosection-card-2.png";
 import heroSectionCardImg3 from "@/assets/images/herosection/herosection-card-3.png";
+import slideyLogo from '@/assets/images/logo-white.png' 
 import ImageSecion from "./ImageHerosection";
 
 const container = {
@@ -57,7 +58,7 @@ const HeroSection = () => {
         />
         {/* </div> */}
         <div className=" text-white z-50 w-5/6 pt-8">
-          <Navbar />
+          <Navbar logo={slideyLogo} />
           <div className=" fontGivonic flex justify-between mt-20">
             <h1 className=" w-[40%] text-6xl font-semibold tracking-wider leading-tight">
               Designing Decks, Pitch Perfectly!
@@ -66,7 +67,8 @@ const HeroSection = () => {
               <p className=" text-xl font-normal text-[#959595] tracking-wider text-justify">
                 Transforming Presentations into Powerful Narratives!
               </p>
-              <button className=" text-[22px] font-semibold text-[#090909] bg-[#E1FC71] rounded-[50px] py-3 px-6 tracking-wider">
+              <button className=" text-[22px] font-semibold text-[#090909] bg-[#E1FC71] rounded-[50px] py-3 px-6 tracking-wider
+              transition-all duration-300 ease-in-out transform-gpu hover:scale-105">
                 Claim Your Free Slide
               </button>
             </div>

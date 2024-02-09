@@ -3,7 +3,8 @@ import React from "react";
 const RankingSection = () => {
   return (
     <section className=" w-4/5 flex justify-between items-center md:gap-5 xl:gap-8 mx-auto my-28">
-      <div className="bg-ranking-1 w-[385px] xl:h-[458px] md:h-[310px] flex flex-col justify-end py-10 xl:px-9 md:px-6 xl:gap-4 md:gap-2">
+      <div className="bg-ranking-1 w-[385px] xl:h-[458px] md:h-[310px] flex flex-col justify-end py-10 xl:px-9 md:px-6 xl:gap-4 md:gap-2
+      transition-all duration-300 ease-in-out transform-gpu hover:scale-105">
         <p className="fontGivonic text-white xl:text-2xl md:text-base font-semibold">
           Maximize Saving
         </p>
@@ -14,7 +15,8 @@ const RankingSection = () => {
           Reduced costs compared to standard rates{" "}
         </p>
       </div>
-      <div className="bg-ranking-2 w-[385px] xl:h-[458px] md:h-[310px] flex flex-col justify-end py-10 xl:px-9 md:px-6 xl:gap-4 md:gap-2">
+      <div className="bg-ranking-2 w-[385px] xl:h-[458px] md:h-[310px] flex flex-col justify-end py-10 xl:px-9 md:px-6 xl:gap-4 md:gap-2
+      transition-all duration-300 ease-in-out transform-gpu hover:scale-105">
         <p className="fontGivonic text-white xl:text-2xl md:text-base font-semibold">
           Enhance Sales Potential
         </p>
@@ -25,7 +27,8 @@ const RankingSection = () => {
           Increased likelihood of securing deals
         </p>
       </div>
-      <div className="bg-ranking-3 w-[385px] xl:h-[458px] md:h-[310px] flex flex-col justify-end py-10 xl:px-9 md:px-6 xl:gap-4 md:gap-2">
+      <div className="bg-ranking-3 w-[385px] xl:h-[458px] md:h-[310px] flex flex-col justify-end py-10 xl:px-9 md:px-6 xl:gap-4 md:gap-2
+      transition-all duration-300 ease-in-out transform-gpu hover:scale-105">
         <p className="fontGivonic text-white xl:text-2xl md:text-base font-semibold">
           Customer Satisfaction
         </p>
