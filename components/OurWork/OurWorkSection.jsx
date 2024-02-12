@@ -45,7 +45,7 @@ const OurWorkSection = () => {
             <Image src={icon1} alt="icon1" className="mb-2" />
             <h3 className="fontGivonic text-[52px] font-semibold text-white">
               The
-              <span className=" pt-2 px-[10px] pb-0 bg-[#E1FC71] text-black rounded-lg mx-3">
+              <span className=" pt-2 px-[10px] pb-0 bg-[#86e2ff] text-black rounded-lg mx-3">
                 Slidey{" "}
               </span>{" "}
               Craft
@@ -61,8 +61,8 @@ const OurWorkSection = () => {
             <div className=" w-4/5 flex justify-evenly rounded-xl bg-[#ffffff0d] text-white text-lg font-semibold p-2">
               {workTypes.map((item, i) => (
                 <p
-                  className={` py-2 px-2 mb-0  cursor-pointer tracking-wider hover:text-[#E1FC71] blur-bg capitalize transition-all duration-300 ease-in-out transform-gpu ${
-                    selectedWorkType === i && "text-[#E1FC71] blur-bg-active"
+                  className={` py-2 px-2 mb-0  cursor-pointer tracking-wider hover:text-[#86e2ff] blur-bg capitalize transition-all duration-300 ease-in-out transform-gpu ${
+                    selectedWorkType === i && "text-[#86e2ff] blur-bg-active"
                   }`}
                   style={{ marginBottom: "0px" }}
                   onClick={() => handleWorkType(i)}
@@ -111,7 +111,7 @@ const OurWorkSection = () => {
             )}
           </div>
           {/* View All */}
-          <button className=" flex items-center justify-center gap-3 w-fit bg-[#E1FC71] rounded-3xl px-5 py-2 mx-auto">
+          <button className=" flex items-center justify-center gap-3 w-fit bg-[#86e2ff] rounded-3xl px-5 py-2 mx-auto">
             <span>View All</span>
             <Image src={craftArrowIcon} alt="downIcon" />
           </button>

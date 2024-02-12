@@ -69,7 +69,7 @@ const IdeaSection = () => {
       <div className=" w-[32%] flex flex-col border-b border-black gap-10 h-80">
         <h3 className="fontGivonic text-[52px] font-semibold leading-[60px]">
           Awake{" "}
-          <span className=" pt-2 px-[10px] pb-0 bg-[#E1FC71] rounded-lg">
+          <span className=" pt-2 px-[10px] pb-0 bg-[#86e2ff] rounded-lg">
             Ideas,
           </span>
           <br /> Not Just Audiences

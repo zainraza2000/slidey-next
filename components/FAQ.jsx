@@ -67,7 +67,7 @@ const FAQ = () => {
         {/* FAQ */}
         <h3 className="fontGivonic text-[52px] font-semibold w-full">
           Frequently Asked
-          <span className=" pt-2 px-[10px] pb-0 bg-[#E1FC71] text-black rounded-lg mx-3">
+          <span className=" pt-2 px-[10px] pb-0 bg-[#86e2ff] text-black rounded-lg mx-3">
             Questions
           </span>
         </h3>

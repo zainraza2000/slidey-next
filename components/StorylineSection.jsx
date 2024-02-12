@@ -12,7 +12,7 @@ const StorylineSection = () => {
         <div className=" flex flex-col gap-10 justify-between">
           <h3 className="fontGivonic text-[52px] font-semibold leading-[60px]">
             Visual{" "}
-            <span className=" pt-2 px-[10px] pb-0 bg-[#E1FC71] rounded-lg">
+            <span className=" pt-2 px-[10px] pb-0 bg-[#86e2ff] rounded-lg">
               Storytelling
             </span>
             <br /> Redefined
