@@ -84,7 +84,7 @@ const TestimonialSection = () => {
     <section className=" relative bg-testinomial w-4/5 flex flex-col justify-between items-center md:gap-5 xl:gap-8 mx-auto py-28">
       <h3 className="fontGivonic text-[52px] font-semibold w-full">
         Client
-        <span className=" pt-2 px-[10px] pb-0 bg-[#E1FC71] text-black rounded-lg mx-3">
+        <span className=" pt-2 px-[10px] pb-0 bg-[#86e2ff] text-black rounded-lg mx-3">
           Testimonials{" "}
         </span>
       </h3>

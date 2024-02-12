@@ -67,7 +67,7 @@ const HeroSection = () => {
               <p className=" text-xl font-normal text-[#959595] tracking-wider text-justify">
                 Transforming Presentations into Powerful Narratives!
               </p>
-              <button className=" text-[22px] font-semibold text-[#090909] bg-[#E1FC71] rounded-[50px] py-3 px-6 tracking-wider
+              <button className=" text-[22px] font-semibold text-[#090909] bg-[#86e2ff] rounded-[50px] py-3 px-6 tracking-wider
               transition-all duration-300 ease-in-out transform-gpu hover:scale-105">
                 Claim Your Free Slide
               </button>

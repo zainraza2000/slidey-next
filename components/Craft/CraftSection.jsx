@@ -25,7 +25,7 @@ const CraftSection = () => {
             <Image src={icon1} alt="icon1" className="mb-2" />
             <h3 className="fontGivonic text-[52px] font-semibold text-white">
               The
-              <span className=" pt-2 px-[10px] pb-0 bg-[#E1FC71] text-black rounded-lg mx-3">
+              <span className=" pt-2 px-[10px] pb-0 bg-[#86e2ff] text-black rounded-lg mx-3">
                 Slidey{" "}
               </span>{" "}
               Craft
@@ -64,7 +64,7 @@ const CraftSection = () => {
             ))}
           </div>
           {/* View All */}
-          <button className=" flex items-center justify-center gap-3 w-fit bg-[#E1FC71] rounded-3xl px-5 py-2 mx-auto">
+          <button className=" flex items-center justify-center gap-3 w-fit bg-[#86e2ff] rounded-3xl px-5 py-2 mx-auto">
             <span>View All</span>
             <Image src={craftArrowIcon} alt="downIcon" />
           </button>
